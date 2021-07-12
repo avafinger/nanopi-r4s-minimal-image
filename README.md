@@ -13,7 +13,7 @@ NanoPi R4S Ubuntu 20.04 LTS
 This is the Ubuntu 20.04 LTS Image for the **NanoPi R4S 4GB** dram version with latest mainline (Kernel / U-Boot).
 Image is minimal with some tools already installed. You can switch Kernel version to get most of the board working.
 
-![Htop screenshot](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/master/htop-nanopi-r4s.png)
+![Htop screenshot](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/mainr/htop-nanopi-r4s.png)
 
 ## Kernel history
 
