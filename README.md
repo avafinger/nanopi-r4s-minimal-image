@@ -55,9 +55,30 @@ WiP
 
 Experiments and annotations with USB H.264 Camera (Trial and Error).
 
-Testing USB2.0 with a USB H264 camera (2MP - 30 FPS), the sensor is 3MP but delivers 1920x1080P 30 FPS. The Camera has good indoor images.
-For the test, **videostreamer** with HTML5 MPEG4 support id used.
+Testing USB2.0 with a USB H264 camera (2MP - 30 FPS), the sensor is 3MP but delivers 1920x1080P 30 FPS. The Camera has good images for indoor usage.
+For the test, we build **videostreamer** with HTML5 MPEG4 support for streaming video. In our test **NanoPi R4S** IP is 192.168.254.119.
+The remuxing takes ~20% CPU. The camera delivers ~30 FPS.
 
+Build:
+
+    sudo apt install golang
+    sudo apt-get install libmp3lame-dev libx264-dev libpulse-dev libpulse-dev libv4l-dev libvdpau-dev
+    sudo apt-get install ffmpeg libavcodec-dev libavformat-dev libavdevice-dev
+    git clone https://github.com/horgh/videostreamer
+    cd videostreamer
+    go build
+
+Run:
+
+    sudo ./videostreamer -host 192.168.254.119 -format v4l2  -input "/dev/video3"  -verbose=0 -fcgi=false
+
+
+From a browser (your remote PC), type: 
+
+    http://192.168.254.119:8080/stream
+    
+
+![Streaming video H264](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-h264.png)
 
 
 ## Build Kernel
