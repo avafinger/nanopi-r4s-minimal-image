@@ -1,7 +1,7 @@
 # nanopi-r4s-minimal-image
 NanoPi R4S Ubuntu 20.04 LTS
 
-![NanoPi R4S](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-cam.jpg)
+![NanoPi R4S](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-4rs-cam.jpg)
 
 * [Introduction](#introduction)
 * [Kernel History](#kernel-history)
