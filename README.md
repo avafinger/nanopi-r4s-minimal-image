@@ -28,6 +28,8 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
 * **v2 is Kernel 5.13.1**
 
   Mainline Kernel (stable kernel).
+  
+  ![CPU Freq / VCore](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/htop-nanopi-r4s-htop.png)
 
 
 ## Instructions
