@@ -3,6 +3,9 @@ NanoPi R4S Ubuntu 20.04 LTS
 
 * [Introduction](#introduction)
 * [Kernel History](#kernel-history)
+* [Mini Router](#mini-router)
+* [H264 Camera](#h264-camera)
+* [Build your Kernel](#build-kernel)
 * [Releases](#releases)
 * [Instructions](#instructions)
 * [Issues](#issues)
@@ -30,6 +33,35 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
   Mainline Kernel (stable kernel).
   
   ![CPU Freq / VCore](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-htop.png)
+  
+  https://github.com/avafinger/nanopi-r4s-minimal-image/releases/tag/v2
+
+* **v3 is Kernel 4.19.161**
+
+  WiP.
+
+
+## Mini Router
+
+Build your mini router with the preferred kernel and configuration.
+Instructions and annotations to build our mini router and navigate safer on Internet.
+
+WiP
+
+
+## H264 camera
+
+Experiments and annotations with H264 USB Camera (Trial and Error).
+
+WiP
+
+
+## Build Kernel
+
+Instructions to build and test your own Kernel ON-BOARD.
+
+WiP
+
 
 
 ## Instructions
@@ -37,7 +69,7 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
 The current setup for the OS image is:
 
 * eth0 as DHCP (WAN)
-* eth1 (R8169) renamed to enp1s0 and static IP: 192.168.254.199
+* eth1 (R8169) renamed to enp1s0 and static IP: 192.168.254.199 (enabled in /etc/network/interfces)
 * No iptables created for the router
 * Kernel is conservative, 1.8GHz / 1.4GHz and can be set to 2.0GHz / 1.5GHz
 * 8GB SD size minimal.
@@ -150,7 +182,7 @@ Releases will be available here: https://github.com/avafinger/nanopi-r4s-minimal
 
 * Kernel 5.10.43
 
-  Reboot not always works due to "can't mount rootfs".
+  Reboot not always works due to "can't mount rootfs" (slow cards).
   
  
  ## Acknowledgement 
