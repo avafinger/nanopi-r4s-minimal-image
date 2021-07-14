@@ -22,6 +22,8 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
 * **v1 is Kernel 5.10.43**
 
   The latest patched kernel from FriendlyElec where you get most peripherals working.
+  
+  https://github.com/avafinger/nanopi-r4s-minimal-image/releases/tag/v1
 
 * **v2 is Kernel 5.13.1**
 
@@ -139,7 +141,7 @@ If you have an embedded sd card reader, look for /dev/mmcblkN where N is your sd
 
 ## Releases
 
-Releases will be available soon. 
+Releases will be available here: https://github.com/avafinger/nanopi-r4s-minimal-image/releases
 
 
 ## Issues
