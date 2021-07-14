@@ -1,6 +1,8 @@
 # nanopi-r4s-minimal-image
 NanoPi R4S Ubuntu 20.04 LTS
 
+![NanoPi R4S](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-cam.jpg)
+
 * [Introduction](#introduction)
 * [Kernel History](#kernel-history)
 * [Mini Router](#mini-router)
@@ -53,7 +55,9 @@ WiP
 
 Experiments and annotations with USB H.264 Camera (Trial and Error).
 
-WiP
+Testing USB2.0 with a USB H264 camera (2MP - 30 FPS), the sensor is 3MP but delivers 1920x1080P 30 FPS. The Camera has good indoor images.
+For the test, **videostreamer** with HTML5 MPEG4 support id used.
+
 
 
 ## Build Kernel
