@@ -43,22 +43,22 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
 
 ## Mini Router
 
-Build your mini router with the preferred kernel and configuration.
-Instructions and annotations to build our mini router and navigate safer on Internet.
+Building your mini router with the preferred kernel and configuration.
+Instructions and annotations to build our mini router and navigate safer on the Internet.
 
 WiP
 
 
 ## H264 camera
 
-Experiments and annotations with H264 USB Camera (Trial and Error).
+Experiments and annotations with USB H.264 Camera (Trial and Error).
 
 WiP
 
 
 ## Build Kernel
 
-Instructions to build and test your own Kernel ON-BOARD.
+Instructions to build and test your own Kernel (ON-BOARD).
 
 WiP
 
