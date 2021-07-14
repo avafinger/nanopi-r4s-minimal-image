@@ -29,7 +29,7 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
 
   Mainline Kernel (stable kernel).
   
-  ![CPU Freq / VCore](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/htop-nanopi-r4s-htop.png)
+  ![CPU Freq / VCore](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-htop.png)
 
 
 ## Instructions
