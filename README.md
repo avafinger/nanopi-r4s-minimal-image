@@ -56,7 +56,7 @@ WiP
 Experiments and annotations with USB H.264 Camera (Trial and Error).
 
 Testing USB2.0 with a USB H264 camera (2MP - 30 FPS), the sensor is 3MP but delivers 1920x1080P 30 FPS. The Camera has good images for indoor usage.
-For the test, we build **videostreamer** with HTML5 MPEG4 support for streaming video. In our test **NanoPi R4S** IP is 192.168.254.119.
+For the test, we build **videostreamer** with HTML5 MP4 support for streaming video. In our test **NanoPi R4S** IP is 192.168.254.119.
 The remuxing takes ~20% CPU. The camera delivers ~30 FPS.
 
 Build:
