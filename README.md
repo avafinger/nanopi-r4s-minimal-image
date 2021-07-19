@@ -37,6 +37,10 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
   ![CPU Freq / VCore](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-htop.png)
   
   https://github.com/avafinger/nanopi-r4s-minimal-image/releases/tag/v2
+  
+* Upgrade to Kernel 5.13.2
+
+  https://github.com/avafinger/nanopi-r4s-minimal-image/releases/tag/v2-update
 
 * **v3 is Kernel 4.19.161**
 
