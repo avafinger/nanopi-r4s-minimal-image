@@ -41,6 +41,11 @@ Kernel will be added as it is a WiP, ideal for testing, developing and checking 
 * Upgrade to Kernel 5.13.2
 
   https://github.com/avafinger/nanopi-r4s-minimal-image/releases/tag/v2-update
+  
+  
+* Upgrade to Kernel 5.13.3
+  
+  https://github.com/avafinger/nanopi-r4s-minimal-image/releases/tag/v2-update-2
 
 * **v3 is Kernel 4.19.161**
 
@@ -85,9 +90,11 @@ From a browser (your remote PC), type:
 ![Streaming video H264](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-h264.png)
 
 
-## Build Kernel
+## Building Kernel
 
 Instructions to build and test your own Kernel (ON-BOARD).
+
+![Building Kernel](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-building-kernel.png)
 
 WiP
 
