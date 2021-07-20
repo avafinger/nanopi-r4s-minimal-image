@@ -7,6 +7,7 @@ NanoPi R4S Ubuntu 20.04 LTS
 * [Kernel History](#kernel-history)
 * [Mini Router](#mini-router)
 * [H264 Camera](#h264-camera)
+* [Monitoring tool](#monitoring-tool)
 * [Build your Kernel](#build-kernel)
 * [Releases](#releases)
 * [Instructions](#instructions)
@@ -88,6 +89,29 @@ From a browser (your remote PC), type:
     
 
 ![Streaming video H264](https://github.com/avafinger/nanopi-r4s-minimal-image/raw/main/nanopi-r4s-h264.png)
+
+
+## Monitoring tool
+
+Htop ( https://github.com/avafinger/htop_2.2.2 ) is used for monitoring the health of the board.
+
+Config file /root/.config/htop/htoprc:
+
+    # SBC hardware and Kernel specific path.
+    # Editable manually.
+    BoardName=
+    CpuFreq_handler=
+    CpuTemp_handler=
+    CpuVCore_l_handler=/sys/class/regulator/regulator.9/microvolts
+    CpuVCore_b_handler=/sys/class/regulator/regulator.6/microvolts
+    GpuVCore_handler=
+    GpuTemp_handler=
+    # Wlan / Eth alias
+    eth0_alias=
+    eth1_alias=enp1s0
+    wlan0_alias=
+    wlan1_alias=
+
 
 
 ## Building Kernel
